@@ -1,0 +1,27 @@
+{
+  "name": "remote1",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "repack start",
+    "build": "repack build",
+    "serve": "repack serve"
+  },
+  "dependencies": {
+    "react": "18.3.1",
+    "react-native": "0.76.0",
+    "@react-navigation/native": "^7.0.18",
+    "@react-navigation/stack": "^7.0.0",
+    "react-native-safe-area-context": "^5.3.0",
+    "react-native-screens": "^4.9.2",
+    "react-native-gesture-handler": "^2.14.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.25.2",
+    "@babel/preset-env": "^7.25.3",
+    "@babel/runtime": "^7.25.0",
+    "@types/react": "^18.2.6",
+    "typescript": "5.0.4",
+    "@callstack/repack": "^3.10.0"
+  }
+}
